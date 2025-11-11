@@ -4,11 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>欢迎访问 嘿次元</title>
+
+    <link rel="icon" href="https://img.hcytu.com/wp-content/uploads/2025/11/20251103175435779970-20251103175435778894-321.png" type="image/png">
+
     <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
-        a { font-size: 1.2em; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; }
-        a:hover { background-color: #0056b3; }
+        /* --- 1. 背景效果 --- */
+        html {
+            margin: 0; 
+        }
+        body { 
+            font-family: sans-serif; 
+            text-align: center; 
+            padding-top: 50px; 
+
+            /* --- 这是添加的渐变背景 --- */
+            margin: 0; 
+            background: linear-gradient(to bottom, #e8f0f6 0%, #ffffff 100%);
+            min-height: 100vh; 
+            box-sizing: border-box; 
+        }
+
+        /* --- 2. 按钮和鼠标效果 --- */
+        a { 
+            font-size: 1.2em; 
+            padding: 10px 20px; 
+            background-color: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+
+            /* --- 这是添加的鼠标效果 (第1部分：基础状态) --- */
+            display: inline-block; 
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 14px 0 rgba(0, 123, 255, 0.3); 
+        }
+
+        a:hover { 
+            background-color: #0056b3; 
+
+            /* --- 这是添加的鼠标效果 (第2部分：悬停状态) --- */
+            transform: translateY(-2px); 
+            box-shadow: 0 6px 20px 0 rgba(0, 123, 255, 0.4); 
+        }
     </style>
+
 </head>
 <body>
     <h1>欢迎来到嘿次元</h1>
@@ -16,6 +55,8 @@
     <br>
     <a href="https://hcytu.org">点击进入</a> 
     <br><br>
-    <p><small>请收藏本地址发布页 hcytu.com 以便下次访问。</small></p>
+
+    <p><small>请按 <strong>Ctrl+D</strong> (Windows) 或 <strong>Cmd+D</strong> (Mac) 收藏本页 (hcytu.com)以便下次访问。</small></p>
+
 </body>
 </html>
